@@ -7,8 +7,50 @@ body {
 	font-family: 'Roboto', sans-serif;
 	display: flex;
 	flex-direction: column;
-	min-height: 100vh;
+	min-height: 100vh; 
 }
+
+/* Kompetencer css start her */
+
+#mega_skills {
+		/* Denne div id er lavet for at kunne stille skills op tredelt
+		sådan at hver kategori kun får 33,3 procent så det fylder siden i bredden og ikke i længden
+		Jeg kan bare ikke lige få det til at gøre som jeg vil
+		*/
+
+
+}
+
+.container_skills {
+    width: 100%; /* Fuld bredde lige pt */
+    background-color: #ddd; /* grå baggrund */
+}
+
+.skills {
+    text-align: right; /* hoejrestillet tekst */
+    padding: 10px; /* padding rundt om */
+    color: white; /* tekst hvid */
+}
+
+/* Sprog specifik */
+.html {width: 90%; background-color: #4CAF50;} 
+.css {width: 80%; background-color: #2196F3;} 
+.javascript {width: 10%; background-color: #2196F3;} 
+.java {width: 25%; background-color: #2196F3;} 
+
+/* Adobe specifik */
+.photoshop {width: 20%; background-color: #2196F3;} 
+.illustrator {width: 0%; background-color: #2196F3;} 
+.xd {width: 60%; background-color: #2196F3;} 
+.dreamweaver {width: 50%; background-color: #2196F3;} 
+
+/* CMS specifik */
+.drupal {width: 70%; background-color: #2196F3;} 
+.ezpublish {width: 50%; background-color: #2196F3;} 
+.sharepointonline {width: 40%; background-color: #2196F3;} 
+.wordpress {width: 90%; background-color: #2196F3;} 
+
+/* Kompetencer css slut her */
 
 .top_banner {
 	display: block;
@@ -39,6 +81,7 @@ nav a:hover {
 }
 
 footer {
+	margin-top: 50px; /* Afstand til nederste indhold på siden */
 	background-color:  aqua;
 	font-family: Roboto, sans-serif;
 	text-align: center;
