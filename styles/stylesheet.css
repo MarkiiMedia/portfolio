@@ -13,7 +13,7 @@ body {
 }
 
 main {
-	flex-grow: 1;
+	flex-grow: 1; /* Denne gør at main fylder og så kan footer sticke til bunden af siden */
 }
 
 /* Kompetencer css start her */
