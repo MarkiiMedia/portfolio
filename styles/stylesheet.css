@@ -5,4 +5,48 @@
 /* Husk gode kommentarer til kode - både her og i HTML filer */
 body {
 	font-family: 'Roboto', sans-serif;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.top_banner {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Flexbox navigation */
+nav {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	
+}
+
+nav a {
+	width: 100%;
+	background-color: #ddd;
+	text-align: center;
+	text-decoration: none;
+	color: #444;
+	font-family: Roboto, sans-serif;
+	padding: 10px;
+}
+
+nav a:hover {
+	background-color:#7B99BB;
+}
+
+footer {
+	background-color:  aqua;
+	font-family: Roboto, sans-serif;
+	text-align: center;
+	width: 100%
+	/*  margin: auto auto 0 auto; */
+}
+
+#social_links {
+	float: right;
+	margin-top: 5px
 }
