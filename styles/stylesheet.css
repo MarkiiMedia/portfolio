@@ -12,18 +12,21 @@ body {
 
 /* Kompetencer css start her */
 
+.kompetencer_overskrift {
+	text-align: center;
+}
 /* flex box til 3 deling */
 .flex_grid_kompetencer {
-  display: flex;
-  justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
 }
 .flex_grid_kompetencer .col_kompetencer {
-  width: 32%;
+	width: 32%;
 }
 
 .container_skills {
-    width: 100%; /* Fuld bredde lige pt */
-    background-color: #ddd; /* grå baggrund */
+	width: 100%; /* Fuld bredde lige pt */
+	background-color: #ddd; /* grå baggrund */
 }
 
 .skills {
