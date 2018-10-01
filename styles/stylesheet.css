@@ -27,12 +27,14 @@ body {
 .container_skills {
 	width: 100%; /* Fuld bredde lige pt */
 	background-color: #ddd; /* grå baggrund */
+	border-radius: 20px; /* Runde hjørner på den grå baggrund */
 }
 
 .skills {
     text-align: right; /* hoejrestillet tekst */
     padding: 10px; /* padding rundt om */
     color: white; /* tekst hvid */
+	border-radius: 20px; /* Runde hjørner på selve processbaren */
 }
 
 /* Sprog specifik */
