@@ -26,16 +26,16 @@ main {
 /* Flexbox navigation */
 nav {
 	display: flex;
-	align-items: center;
+	justify-content: center;
 	width: 100%;
-	border-bottom: 1px solid #ddd;
-	border-top: 1px solid #ddd;
-	
+	/* leg */
+	padding-top: .5em;
+	padding-bottom: .5em;
+	background-color: #ddd;
+	box-shadow: 0px 6px 10px -6px rgba(0,0,0,0.75);
 }
 
 nav a {
-	width: 100%;
-	text-align: center;
 	text-decoration: none;
 	color: #444;
 	font-family: Roboto, sans-serif;
@@ -43,8 +43,26 @@ nav a {
 }
 
 nav a:hover {
-	background-color:#878787;
+	color: #272727;
 }
+
+/* Flow 1 og Flow 2 container start her */
+.container {
+	margin-top: 20px;
+	display: flex;
+	background-color: #ddd;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.flow_pictures {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%); /* Laver formen for alle billeder med denne klasse */
+}
+
+/* Flow 1 og Flow 2 container slut her */
+
 
 /* Kompetencer css start her */
 
@@ -94,7 +112,7 @@ nav a:hover {
 /* Kompetencer css slut her */
 
 footer {
-	margin-top: 50px; /* Afstand til nederste indhold på siden */
+	margin-top: 20px; /* Afstand til nederste indhold på siden */
 	background-color: #ddd;
 	font-family: Roboto, sans-serif;
 	text-align: center;
