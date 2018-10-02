@@ -140,6 +140,7 @@ opacity: 1;
     padding: 10px; /* padding rundt om */
     color: white; /* tekst hvid */
 	border-radius: 20px; /* Runde hjørner på selve processbaren */
+	margin-bottom: 40px; /* afstand fra procentboks til ny */
 }
 
 /* Sprog specifik */
