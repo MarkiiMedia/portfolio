@@ -82,17 +82,21 @@ nav a:hover {
 }
 
 .flow_hover_container:hover .overlay {
-opacity: 1;
+opacity: 0.9;
 }
 
 .overlay_text {
-   color: white;
   font-size: 20px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+}
+
+.overlay_text a {
+	color: #ddd;
+	text-decoration: none;
 }
 
 /* Flow 1 og Flow 2 container slut her */
