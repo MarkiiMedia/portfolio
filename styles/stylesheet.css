@@ -22,7 +22,6 @@ body {
 }
 
 h1 {
-	padding-left: 20px;
 	text-align: center;
 }
 
@@ -163,6 +162,27 @@ opacity: 0.9;
 .wordpress {width: 90%; background-color: #4CAF50;} 
 
 /* Kompetencer css slut her */
+
+
+/* specifik flowvalg start her */
+.container_specific {
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.flex-specific_casebeskrivelse {
+	width: 30%;
+	margin-right: auto;
+	background-color: aqua;
+}
+
+.flex-specific_casebilleder {
+	background-color: blueviolet;
+	width: 70%;
+}
+/* specifik flowvalg slut her */
+
 
 footer {
 	margin-top: 20px; /* Afstand til nederste indhold på siden */
