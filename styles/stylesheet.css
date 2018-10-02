@@ -51,7 +51,7 @@ nav a:hover {
 
 /* Flow 1 og Flow 2 container start her */
 .container {
-	margin-top: 20px;
+	margin-top: 120px;
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
@@ -94,7 +94,6 @@ opacity: 1;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
-
 
 /* Flow 1 og Flow 2 container slut her */
 
