@@ -77,7 +77,7 @@ nav a:hover {
   opacity: 0;
   transition: .5s ease;
   background-color: #008CBA;
-	transform: skew(-10deg); /* Gør at overlay shapen passer billedets form */
+	transform: skew(-10deg); /* Gør at overlay shapen passer NOGENLUNDE billedets form */
 }
 
 .flow_hover_container:hover .overlay {
