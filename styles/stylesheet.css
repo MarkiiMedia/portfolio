@@ -7,15 +7,12 @@ body {
 	font-family: 'Roboto', sans-serif;
 	display: flex;
 	flex-direction: column;
-	min-height: 96vh; /* Denne burde være sat til 100vh, men gør jeg det
+	min-height: 100vh;  /*Denne burde være sat til 100vh, men gør jeg det
 	så fylder den mere end 100% hvordan det så end kan lade sig gøre
-	*/
+*/
+	
+	
 }
-
-main {
-	flex-grow: 1; /* Denne gør at main fylder og så kan footer sticke til bunden af siden */
-}
-
 
 .top_banner {
 	display: block;
@@ -56,14 +53,12 @@ nav a:hover {
 .container {
 	margin-top: 20px;
 	display: flex;
-	background-color: #ddd;
 	align-items: center;
 	justify-content: space-around;
+	align-content: center;
 }
 
 .flow_pictures {
-	padding-top: 10px;
-	padding-bottom: 10px;
 	clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%); /* Laver formen for alle billeder med denne klasse */
 }
 
@@ -108,7 +103,6 @@ opacity: 1;
 
 .kompetencer_container {
 	margin-top: 20px;
-	background-color: #ddd;
 	
 }
 
@@ -131,7 +125,7 @@ opacity: 1;
 
 .container_skills {
 	width: 100%; /* Fuld bredde lige pt */
-	background-color: #9D9D9D; /* grå baggrund */
+	background-color: #ddd; /* grå baggrund */
 	border-radius: 20px; /* Runde hjørner på den grå baggrund */
 }
 
@@ -165,14 +159,18 @@ opacity: 1;
 
 footer {
 	margin-top: 20px; /* Afstand til nederste indhold på siden */
-	background-color: #ddd;
 	font-family: Roboto, sans-serif;
 	text-align: center;
-	width: 100%
+	width: 100%;
+	flex-shrink: 0; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
 	/*  margin: auto auto 0 auto; */
 }
 
 #social_links {
 	float: right;
 	margin-top: 5px
+}
+
+.content_sticky_footer {
+  flex: 1 0 auto;
 }
