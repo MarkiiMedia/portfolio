@@ -16,6 +16,36 @@ main {
 	flex-grow: 1; /* Denne gør at main fylder og så kan footer sticke til bunden af siden */
 }
 
+
+.top_banner {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Flexbox navigation */
+nav {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	border-bottom: 1px solid #ddd;
+	border-top: 1px solid #ddd;
+	
+}
+
+nav a {
+	width: 100%;
+	text-align: center;
+	text-decoration: none;
+	color: #444;
+	font-family: Roboto, sans-serif;
+	padding: 10px;
+}
+
+nav a:hover {
+	background-color:#878787;
+}
+
 /* Kompetencer css start her */
 
 .kompetencer_overskrift {
@@ -62,35 +92,6 @@ main {
 .wordpress {width: 90%; background-color: #2196F3;} 
 
 /* Kompetencer css slut her */
-
-.top_banner {
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/* Flexbox navigation */
-nav {
-	display: flex;
-	align-items: center;
-	width: 100%;
-	border-bottom: 1px solid #ddd;
-	border-top: 1px solid #ddd;
-	
-}
-
-nav a {
-	width: 100%;
-	text-align: center;
-	text-decoration: none;
-	color: #444;
-	font-family: Roboto, sans-serif;
-	padding: 10px;
-}
-
-nav a:hover {
-	background-color:#878787;
-}
 
 footer {
 	margin-top: 50px; /* Afstand til nederste indhold på siden */
