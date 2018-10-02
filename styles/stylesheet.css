@@ -49,6 +49,10 @@ nav a:hover {
 	color: #272727;
 }
 
+nav a.active {
+	border-bottom: 1px solid black;
+}
+
 /* Flow 1 og Flow 2 container start her */
 .container {
 	margin-top: 120px;
@@ -170,7 +174,6 @@ footer {
 }
 
 #social_links {
-	float: right;
 	margin-top: 5px
 }
 
