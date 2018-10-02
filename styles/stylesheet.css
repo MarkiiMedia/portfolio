@@ -61,6 +61,40 @@ nav a:hover {
 	clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%); /* Laver formen for alle billeder med denne klasse */
 }
 
+/* leg med overlay her */
+.flow_hover_container {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+	transform: skew(-10deg); /* Gør at overlay shapen passer billedets form */
+}
+
+.flow_hover_container:hover .overlay {
+opacity: 1;
+}
+
+.overlay_text {
+   color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
 /* Flow 1 og Flow 2 container slut her */
 
 
