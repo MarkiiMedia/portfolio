@@ -54,7 +54,7 @@ nav a.active {
 
 /* Flow 1 og Flow 2 container start her */
 .container {
-	margin-top: 120px;
+	margin-top: 60px;
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
@@ -63,6 +63,7 @@ nav a.active {
 
 .flow_pictures {
 	clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%); /* Laver formen for alle billeder med denne klasse */
+	width: 200px;
 }
 
 /* leg med overlay her */
@@ -81,11 +82,11 @@ nav a.active {
   opacity: 0;
   transition: .5s ease;
   background-color: #008CBA;
-  transform: skew(-10deg); /* Gør at overlay shapen passer NOGENLUNDE billedets form */
+  transform: skew(-8deg); /* Gør at overlay shapen passer NOGENLUNDE billedets form */
 }
 
 .flow_hover_container:hover .overlay {
-opacity: 0.9;
+opacity: 0.98;
 }
 
 .overlay_text {
@@ -172,14 +173,16 @@ opacity: 0.9;
 }
 
 .flex-specific_casebeskrivelse {
-	width: 30%;
+	flex: 30%;
+	max-width: 30%;
 	margin-right: auto;
 	background-color: aqua;
 }
 
 .flex-specific_casebilleder {
 	background-color: blueviolet;
-	width: 70%;
+	flex: 70%;
+	max-width: 70%;
 }
 /* specifik flowvalg slut her */
 
