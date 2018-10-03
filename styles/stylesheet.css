@@ -206,7 +206,6 @@ opacity: 0.98;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
-	background-color: blueviolet;
 	flex: 100%;
 	max-width: 100%;
 }
@@ -226,7 +225,7 @@ opacity: 0.98;
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #008CBA;
+  background-color: #14689D;
 }
 
 .flow_hover_container_specific:hover .overlay_specific {
@@ -243,8 +242,13 @@ opacity: 0.8;
 }
 
 .overlay_text_specific p {
-	color: #ddd;
+	color: white;
 	text-decoration: none;
+}
+
+
+.hover_specific_list_text {
+	color: white;
 }
 /* specifik flowvalg slut her */
 
