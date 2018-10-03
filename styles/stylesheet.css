@@ -10,8 +10,6 @@ body {
 	min-height: 100vh;  /*Denne burde være sat til 100vh, men gør jeg det
 	så fylder den mere end 100% hvordan det så end kan lade sig gøre
 */
-	
-	
 }
 
 .top_banner {
@@ -54,6 +52,36 @@ nav a.active {
 	border-bottom: 1px solid black;
 }
 
+/* Forside layout leg starter her */
+
+.content_sticky_footer_forside {
+	margin-top: 5px;
+	min-height: 70vh;
+	 /* The image used */
+   background-image: url('../images/background_forside.png');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.forside_container {
+	margin-top: 40px;
+	background-color: rgba(255,255,255,0.30);
+	width: 25%;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: center;
+	border-radius: 20px 20px 20px 20px;
+}
+
+/* Forside layout leg slutter her */
+
 /* Flow 1 og Flow 2 container start her */
 .container {
 	margin-top: 60px;
@@ -83,7 +111,7 @@ nav a.active {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #008CBA;
+  background-color: #14689D;
   transform: skew(-8deg); /* Gør at overlay shapen passer NOGENLUNDE billedets form */
 }
 
