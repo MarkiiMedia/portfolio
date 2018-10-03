@@ -246,6 +246,11 @@ opacity: 0.8;
 	text-decoration: none;
 }
 
+.overlay_text_specific a {
+	color: white;
+	
+}
+
 
 .hover_specific_list_text {
 	color: white;
