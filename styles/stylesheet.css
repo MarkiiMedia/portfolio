@@ -57,13 +57,13 @@ nav a.active {
 	margin-top: 60px;
 	display: flex;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: center;
 	align-content: center;
 }
 
 .flow_pictures {
 	clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%); /* Laver formen for alle billeder med denne klasse */
-	width: 200px;
+	width: 250px;
 }
 
 /* leg med overlay her */
