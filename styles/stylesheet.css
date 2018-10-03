@@ -33,7 +33,7 @@ nav {
 	/* leg */
 	padding-top: .5em;
 	padding-bottom: .5em;
-	background-color: #ddd;
+	/*background-color: #ddd;*/ /* fjernet baggrundsfarve for et mere clean look */
 	box-shadow: 0px 6px 10px -6px rgba(0,0,0,0.75);
 }
 
@@ -237,4 +237,8 @@ footer {
 
 .content_sticky_footer {
   flex: 1 0 auto;
+}
+
+.footer_link {
+	text-decoration: none;
 }
