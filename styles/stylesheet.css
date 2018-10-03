@@ -217,10 +217,20 @@ opacity: 0.8;
 	color: #ddd;
 	text-decoration: none;
 }
-
-
 /* specifik flowvalg slut her */
 
+
+/* kontakt start her */
+
+.contact_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+}
+
+/* kontakt slut her */
 
 footer {
 	margin-top: 20px; /* Afstand til nederste indhold på siden */
