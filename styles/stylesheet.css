@@ -81,10 +81,14 @@ nav a.active {
 .forside_container:hover {
 	background-color: #2D253A;
 	color:white;
-	border: none;
+	border: 1px solid #2D253A;
 }
 
-
+#social_link_forside {
+	display: flex;
+	justify-content: center;
+	margin-top: 300px;
+}
 /* Forside layout leg slutter her */
 
 /* Flow 1 og Flow 2 container start her */
