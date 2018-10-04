@@ -58,13 +58,9 @@ nav a.active {
 .content_sticky_footer_forside {
 	margin-top: 5px;
 	min-height: 70vh;
-	 /* The image used */
-   background-image: url('../images/background_forside.png');
-
-    /* Full height */
-    height: 100%; 
-
-    /* Center and scale the image nicely */
+    background-image: url('../images/background_forside.png');  
+    height: 100%; /* fuld højde */
+    /* centrerer og skalerer billede */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -81,11 +77,13 @@ nav a.active {
 	justify-content: center;
 }
 
+
 .forside_container:hover {
 	background-color: #2D253A;
 	color:white;
 	border: none;
 }
+
 
 /* Forside layout leg slutter her */
 
@@ -263,6 +261,11 @@ opacity: 0.8;
 .hover_specific_list_text {
 	color: white;
 }
+
+.tilbage_til_flow a {
+	text-decoration: none;
+	color: black;
+}
 /* specifik flowvalg slut her */
 
 
@@ -287,10 +290,6 @@ opacity: 0.8;
   justify-content: center;
 }
 
-.tilbage_til_flow a {
-	text-decoration: none;
-	color: black;
-}
 /* kontakt slut her */
 
 footer {
