@@ -45,11 +45,12 @@ nav a {
 }
 
 nav a:hover {
-	color: #272727;
+	color: black;
+	border-bottom: 1px solid #ddd;
 }
 
 nav a.active {
-	border-top: 1px solid black;
+	border-bottom: 1px solid black;
 }
 
 /* Forside layout leg starter her */
