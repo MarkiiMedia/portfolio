@@ -217,67 +217,23 @@ opacity: 0.98;
 .container_specific {
 	margin-top: 20px;
 	display: flex;
-	justify-content: center;
-}
-
-
-.flex-specific_casebilleder {
-	display: flex;
-	justify-content: center;
 	flex-direction: column;
-	flex: 100%;
-	max-width: 100%;
 }
 
-/* overlay til specific her */
-.flow_hover_container_specific {
-  position: relative;
+.specific_single {
+	display: flex;
+	flex-direction: row;
 }
 
-.overlay_specific {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #14689D;
+.specific_single img {
+	padding-right: 20px;
+	padding-bottom: 40px;
 }
 
-.flow_hover_container_specific:hover .overlay_specific {
-opacity: 0.8;
-}
+.specific_tekst {
+	display: flex;
+	flex-direction: column;
 
-.overlay_text_specific {
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-}
-
-.overlay_text_specific p {
-	color: white;
-	text-decoration: none;
-}
-
-.overlay_text_specific a {
-	color: white;
-	
-}
-
-
-.hover_specific_list_text {
-	color: white;
-}
-
-.tilbage_til_flow a {
-	text-decoration: none;
-	color: black;
 }
 /* specifik flowvalg slut her */
 
