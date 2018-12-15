@@ -222,7 +222,7 @@ opacity: 0.98;
 
 .specific_single {
 	display: flex;
-	flex-direction: row;
+	flex-direction:row;
 }
 
 .specific_single img {
